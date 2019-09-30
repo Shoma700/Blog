@@ -1,0 +1,54 @@
+body {
+    background-color : #DDDDDD;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.warapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main {
+    max-width: 960px;
+
+}
+
+.main-left {
+    width: 790px;
+    margin-right: 20px;
+    float :left;
+}
+.main-right {
+    width: 150px;
+    float :left;
+}
+
+
+
+.bloger-image1 {
+    width: 160px;
+    height: 150px;
+}
+
+.bloger-image2 {
+    width: 40px;
+    height: 35px;
+}
+
+.copyright {
+    color: #777;
+    text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
