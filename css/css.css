@@ -1,3 +1,31 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+P {
+    padding-bottom: 10px;
+}
+.date-top {
+    padding-top: 5px;
+}
+
 body {
     background-color : #DDDDDD;
     margin-right: auto;
@@ -6,7 +34,7 @@ body {
     padding-right: 10px;
     padding-left: 10px;
 }
-
+/*
 .warapper {
     margin-right: auto;
     margin-left: auto;
@@ -14,10 +42,50 @@ body {
     padding-right: 10px;
     padding-left: 10px;
 }
+*/
+
+.container {
+    margin-top: 20px;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.blog-container {
+    float: left;
+}
+.sub-container1 {
+    float: left;
+    width: 170px;
+}
+.sub-container2 {
+    float: left;
+    width: 600px;
+}
 
 .main {
     max-width: 960px;
+}
 
+.navbar {
+    background-color: black;
+    width: 100%;
+    margin: 20 0px !important;
+    padding: 10px 0;
+}
+
+.navbar-li {
+    color: white;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    float: left;
+    margin-left: 20px;
 }
 
 .main-left {
@@ -25,16 +93,16 @@ body {
     margin-right: 20px;
     float :left;
 }
+
 .main-right {
     width: 150px;
     float :left;
 }
 
-
-
 .bloger-image1 {
     width: 160px;
     height: 150px;
+    float: left;
 }
 
 .bloger-image2 {
@@ -42,13 +110,45 @@ body {
     height: 35px;
 }
 
+.left-date {
+    font-size: 12px;
+    float: left;
+}
+
+.left-blogtitle {
+    font-size: 16px;
+    float: left;
+}
+.left-blog {
+    font-size: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.right-subtitle {
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 1px dashed gray;
+}
+.right-date {
+    font-size: 10px;
+}
+
+.right-blogtitle {
+    font-size: 12px;
+}
+
 .copyright {
     color: #777;
     text-align: center;
 }
 
-.main:after {
+.dummy::after {
   clear: both;
   display: block;
-  content: " ";
+  content: "";
+}
+.dummy2 {
+    width: auto;
+    margin-bottom: 50px;
 }
